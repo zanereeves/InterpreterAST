@@ -1,7 +1,7 @@
 # Welcome to my scripting language JLox!
 
-Lox is a dynamically typed scripting language that has basic functionality such as: error detection, Scoping, Inheritance, and so much more! Below is a somewhat comprehensive list
-of Lox's features. Note, every statement is terminated by a semicolon.
+JLox is a dynamically typed scripting language that has basic functionality such as: error detection, Scoping, Inheritance, and so much more! Below is a somewhat comprehensive list
+of JLox's features. Note, every statement is terminated by a semicolon.
 
 ## Variable declaration and Instantiation
 You declare variables using the "var" keyword.
