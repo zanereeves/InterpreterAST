@@ -119,7 +119,7 @@ var cake = Cake();
 cake.flavor = "German chocolate";
 cake.taste();
 ```
-Will output
+Will output:
 
 ```
 The German chocolate cake is delicious!
