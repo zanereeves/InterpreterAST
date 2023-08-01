@@ -1,10 +1,9 @@
-# Welcome to my scripting language JLox!
+# Welcome to JLox: A Dynamically Typed Scripting Language
 
-JLox is a dynamically typed scripting language that has basic functionality such as: error detection, Scoping, Inheritance, and so much more! Below is a somewhat comprehensive list
-of JLox's features. Note, every statement is terminated by a semicolon.
+JLox is a versatile and dynamically typed scripting language that offers a rich set of features to simplify your coding experience. From error detection to scoping and inheritance, JLox empowers developers to build expressive and powerful applications with ease. Every statement in JLox is elegantly terminated by a semicolon, ensuring clean and organized code..
 
 ## Variable declaration and Instantiation
-You declare variables using the "var" keyword.
+In JLox, variable declaration is straightforward using the ```var``` keyword. Let's see an example:
 
 ```
   Var printThree = 3;
@@ -13,7 +12,7 @@ You declare variables using the "var" keyword.
 Will output ```3```.
 
 ## Function declarations
-Functions are declared using the "fun" keyword and values are returned using the return keyword.
+Functions are a fundamental building block in JLox, and they are declared using the ```fun``` keyword. The ```return``` keyword is used to return values from functions. Let's explore an example:
 
 ```
   fun deductThree(n) {
@@ -25,7 +24,7 @@ Functions are declared using the "fun" keyword and values are returned using the
 Will output ```2```
 
 ## For and While loops
-Both For loops and While loops are java styled
+Lox supports both ```for``` and ```while``` loops, following the familiar Java syntax. Let's take a look at examples of both:
 ```
   var s = "*";
   for(var i = 3; i > 0; i = i-1){
@@ -60,7 +59,7 @@ Will output:
 
 
 ## "if" and "else" statements
-JLox can interpret the "truthfulness" of a statement such as:
+JLox allows you to evaluate the "truthfulness" of statements using ```if``` and ```else``` constructs. Check out the example below:
 ```
 var n = 5;
 var m = 4;
@@ -80,8 +79,7 @@ The above output is:
 
 
 ## Classes, Objects, and Inheritance
-Below is a snippet showcasing inheritance (Inheritance in JLox behaves like
-Inheritance in java):
+JLox supports object-oriented programming with classes, objects, and inheritance, similar to Java. Here's an example demonstrating inheritance:
 
 ```
 class A {
@@ -124,7 +122,7 @@ Will output:
 ```
 The German chocolate cake is delicious!
 ```
-Additionally, classes take an initializer with keyword init:
+Additionally, classes can have initializers defined using the ```init``` keyword:
 
 ```
 class Foo {
@@ -139,7 +137,7 @@ Will output:
 Foo
 ```
 ## Setup
-Setup is simple!! Run your Lox.java file with your path to lox.txt passed as an argument and you're
+Setup is simple!! Run your ```Lox.java``` file with your path to ```lox.txt``` passed as an argument and you're
 all set!
 
 ## Examples of more complex programs
