@@ -1,6 +1,6 @@
 # Welcome to JLox: A Dynamically Typed Scripting Language
 
-JLox is a versatile and dynamically typed scripting language that offers a rich set of features to simplify your coding experience. From error detection to scoping and inheritance, JLox empowers developers to build expressive and powerful applications with ease. Every statement in JLox is elegantly terminated by a semicolon, ensuring clean and organized code..
+JLox is a versatile and dynamically typed scripting language that offers a rich set of features to simplify your coding experience. From error detection to scoping and inheritance, JLox empowers developers to build expressive and powerful applications with ease. Every statement in JLox is elegantly terminated by a semicolon, ensuring clean and organized code.
 
 ## Variable declaration and Instantiation
 In JLox, variable declaration is straightforward using the ```var``` keyword. Let's see an example:
